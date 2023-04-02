@@ -1,0 +1,174 @@
+@import url("reset.css"); /* Se incorpora las reglas del fichero reset.css */
+	
+/**** Estilos propios ****/
+ body,html { /* Asignamos alto de referencia a los elementos hijos*/
+	 height:100%; 
+ } 
+
+/* Ajuste de sangrías para listas */ 
+ ul,ol { 
+	  list-style-position: inside; 
+ } 
+ 
+ ul,ol,li { 
+	   margin-left:0.6em; 
+ } 
+ 
+ ul > ul { 
+	  margin-left:1.25em; 
+ } 
+ ol > ol { 
+	  margin-left:1.25em; 
+ } 
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0.83em 0;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em 0;
+}
+
+h5 {
+	font-size: 0.83em;
+	margin: 1.67em 0;
+}
+
+h6 {
+	font-size: 0.75em;
+	margin: 2.33em 0;
+}
+
+/*** Comienzo de reglas CSS para el ejercicio *******/
+h1 {
+	margin:0px;
+}
+
+h2 {
+	font-size: 2em;
+	margin:0px;
+}
+
+body{
+ background-color:#4D7098;
+}
+
+input,textarea,fieldset {
+ border:1px solid gray;
+ padding:2px;
+}
+
+#fieldset_colores input {
+ border:0px;
+}
+
+fieldset > fieldset {
+  margin:5px;
+}
+
+legend{
+ font-weight: bold;
+ font-style: italic;
+ margin-left:15px;
+}
+
+.margenes{
+ margin:10px;
+}
+
+#principal{
+ width:975px;
+ margin:0px auto;
+ background-color:white;
+}
+
+#encabezado {
+ background-color:blue;
+ color:white;
+ height:40px;
+ padding-left:10px
+}
+
+#articulo_formulario{
+  width:400px;
+  margin:0px auto;
+}
+
+#articulo_formulario header {
+ text-align:center;
+}
+
+.nombre_campo{
+  width:50%;
+  float:left;
+  clear:both;
+  text-align:right;
+  padding:5px;
+  font-weight: bold;
+}
+.control{
+ width:50%;
+ float:left;
+ padding-left:10px;
+ padding:5px;
+}
+
+#botones_formulario {
+ text-align:center;
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+#fieldset_colores{
+ text-align:center;
+}
+
+#fieldset_colores input {
+ margin-left:5px;
+ margin-right:5px;
+}
+
+#principal footer{
+ text-align:center;
+ background-color:blue;
+ color:white;
+ padding:10px;
+}
+header{
+ text-shadow: 2px 2px 3px;
+}
+input[required], textarea[required]{
+	border:2px solid red;
+}
+fieldset{
+ border-radius: 20px;
+ box-shadow: 5px 5px 8px blue;
+}
+.letra{
+	font-family: 'Roboto', sans-serif;
+}
+div.nombre_campo:after{
+	content: "*";
+}
+#color {
+	font-style:normal;
+	text-align: left;
+}
+legend#color:after{
+	content:"*";
+}
+div.fecha:after{
+	content:"";
+}

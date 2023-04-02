@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>Etiquetas Semáticas</title>
+	<link rel="stylesheet" href="estilos.css" />
+	<meta charset="utf-8">
+	<meta name="description" content=""> <!-- Util para buscadores. Descripción breve de la página -->
+	<meta name="author" content=""> <!-- Autor de página Web -->
+	<meta name="viewport" content="width=device-width; initial-scale=1.0"> <!-- Ajusta el ancho de del documento al del dispositivo y ajusta el zoom en los dispotivos móviles -->
+	<link rel="shortcut icon" href="/favicon.ico"> <!--  Icono favoritos navegador. 16x16 pixels formato .ico  32bits color. greenfish-icon-editor o http://www.favicon.cc/-->
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- Iconos para disposivos Apple. 129 by 129 píxeles formato .png  http://www.pic2icon.com/site_icon_for_iphone_ipad_generator.php -->
+</head>
+
+<body>
+<div id="principal">
+<!-- Enlace formado por un elemento de bloque -->
+ <a href="inicio.html" hreflang="es" title="Compras on-line">
+  <header id="encabezado"><h1 id="txt_logo">Compra Manía</h1></header>
+ </a>
+ <!-- Menú -->
+ <nav id="menu"><a href="#" hreflang="es" title="Foto y video">Informática</a> | <a href="#" hreflang="es" title="Imagen y sonido">Imagen y sonido </a></nav>
+ 
+ <div id="contenido">
+ <section>
+  <article>
+  <table id="tabla">
+   <caption><h2>Productos en oferta</h2></caption> <!-- Título de la tabla -->
+   <thead>
+    <tr><td>id</td><td>Producto</td><td>Precio</td><td></td></tr> <!-- Fila de encabezado -->
+   </thead>
+   <tbody> <!-- Datos -->
+    <tr><td>10002</td><td>Planca X-500</td><td>80 &euro;</td><td><a href="#" hreflang="es" title="Plancha x-500">Comprar</a></td></tr>
+    <tr><td>29902</td><td>Acer AC-899I</td><td>310 &euro;</td><td><a href="#" hreflang="es" title="Acer AC-899I">Comprar</a></td></tr>
+    <tr><td>28282</td><td>Samsun i9100G Galaxy S</td><td>400 &euro;</td><td><a href="#" hreflang="es" title="Samsun i9100G Galaxy s">Comprar</a></td></tr>
+   </tbody>
+ </table>
+ </article>
+
+ <article id="top_ventas">
+   <header> <!-- Encabezado de artículo -->
+    <h2><em>Top</em> 5 ventas </h2>
+   </header>
+	<ul id="lista_top_ventas">
+	 <li><a href="#" hreflang="es" title="top 1">Ipad 2</a></li>
+	 <li><a href="#" hreflang="es" title="top 2">Hp Pavilion</a></li>
+	 <li><a href="#" hreflang="es" title="top 3">Memoria USB 32 GB</a></li>
+	 <li><a href="#" hreflang="es" title="top 4">Canon Mutifuncion</a></li>
+	 <li><a href="#" hreflang="es" title="top 5">Samsung Galaxy IG9000</a></li>
+	</ul>
+	<footer> <!-- Pie de artículo -->
+	  <p>Top 5 de la semana pasada</p>
+   </footer>
+ </article>
+</section>
+</div>
+
+<footer id="pie">
+  <p>&copy; 2012 Compra Manía</p>
+  <div id="rellenopie">
+  </div>
+</footer>
+</div>
+</body>
+</html>

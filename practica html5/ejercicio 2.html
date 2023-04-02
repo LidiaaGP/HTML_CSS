@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>Formulario Html5</title>
+	<link rel="stylesheet" href="estilos.css" />
+	<meta charset="utf-8">
+	<meta name="description" content=""> <!-- Util para buscadores. Descripción breve de la página -->
+	<meta name="author" content=""> <!-- Autor de página Web -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Ajusta el ancho de del documento al del dispositivo y ajusta el zoom en los dispotivos móviles -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico"> <!--  Icono favoritos navegador. 16x16 pixels formato .ico  32bits color. http://greenfishsoftware.org o http://www.favicon.cc/-->
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- Iconos para disposivos Apple. 129 by 129 píxeles formato .png  http://www.pic2icon.com/site_icon_for_iphone_ipad_generator.php -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="estilo">
+<div id="principal">
+	<header id="encabezado"><h1>Mi Web</h1></header>
+	<article id="articulo_formulario">
+		<header><h2 class="letra">Formulario</h2></header>
+		<form action="procesa_formulario.php" method="post">
+			<fieldset>
+				<legend>Cliente</legend>
+				<div class="nombre_campo">Nombre y apellidos: </div> <div class="control"> <input type="text" name="nombre" required placeholder="Nombre y apellidos" autofocus></div>
+				<div class="nombre_campo">Dirección:			</div> <div class="control"> <textarea cols="18" rows="7" name="direccion" required placeholder="Teclee aquí la dirección"></textarea></div>
+				<div class="nombre_campo">Código Postal:		</div> <div class="control"> <input type="text" name="cp" size="4" maxlength="5" required pattern="[0-9]{5}" title="Teclee un código de 5 dígitos"></div>
+				<div class="nombre_campo">País:				</div> <div class="control"> <input type="text" name="pais" value="España" required list="paises"></div>
+				<datalist id="paises">
+					<option value="España">España</option>
+					<option value="Portugal">Portugal</option>
+					<option value="Francia">Francia</option>
+					<option value="Inglaterra">Inglaterra</option>
+				</datalist>
+				<div class="nombre_campo fecha">Fecha de nacimiento:	</div><div class="control"><input name="fecha_nac" type="date"></div>
+				<div class="nombre_campo">Email:				</div><div class="control"><input type="email" name="email" required placeholder="Dirección de email"></div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Pedido</legend>
+				<div class="margenes">Modelo: <input type="text" readonly name="Modelo" value="Modelo X-300"></div>
+				<fieldset id="fieldset_colores">
+					<legend id="color" >Color</legend>
+					<input name="color" type="radio" value="rojo" id="rb1" required><label for="rb1">Rojo</label>
+					<input name="color" type="radio" value="azul" id="rb2"><label for="rb2">Azul</label>
+					<input name="color" type="radio" value="amarillo" id="rb3"><label for="rb3">Amarillo</label>
+					<input name="color" type="radio" value="rosa" id="rb4"><label for="rb4">Rosa</label>
+					<input name="color" type="radio" value="violeta" id="rb5"><label for="rb5">Violeta</label>
+				</fieldset>
+
+				<div class="margenes">
+				Cantidad *: <input type="number" name="cantidad" min="1" max="99" step="1" value="1" size="4"  title="Teclee un código de 5 dígitos" required>
+				</div>
+			</fieldset>
+
+			<div id="botones_formulario">
+				<input type="submit" value="Realizar pedido">
+				<input type="reset" value="Anular">
+			</div>
+		</form>
+	</article>
+
+	<footer>&copy; 2012 Mi web</footer>
+</div>
+</body>
+</html>

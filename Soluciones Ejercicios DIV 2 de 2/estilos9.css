@@ -1,0 +1,24 @@
+#cajaA{
+ height:10%;
+ background-color:red;
+}
+
+#cajaB{
+ float:left;
+ width:25%;
+ height:80%;
+ background-color: green;
+}
+
+#cajaC{
+ float:left; 
+ width:75%;
+ height:80%;
+ background-color: yellow;
+}
+
+#cajaD{
+ clear: both; /* también valdría float:left; width:100%; */ 
+ height:10%;
+ background-color: orange;
+}

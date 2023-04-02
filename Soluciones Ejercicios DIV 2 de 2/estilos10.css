@@ -1,0 +1,27 @@
+#cajaA{
+ background-color:red;
+ width:25%;
+ height:100%;
+ float:left;
+}
+
+#cajaB{
+ background-color:green;
+ width:25%;
+ height:100%;
+ float:left;
+}
+
+#cajaC{
+ background-color:yellow;
+ width:25%;
+ height:100%;
+ float:left;
+}
+
+#cajaD{
+ background-color:blue;
+ width:25%;
+ height:100%;
+ float:left;
+}

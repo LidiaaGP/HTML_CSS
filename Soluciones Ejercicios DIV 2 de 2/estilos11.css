@@ -1,0 +1,20 @@
+#cajaA{
+ position:relative;
+ width:25%;
+ height:25%;
+ top: 37.5%;  /* 50% - 25%/2 */
+ left: 37.5%;  /* 50% - 25%/2 */
+ background-color:red;
+}
+
+#cajaB{
+ display:none;
+}
+
+#cajaC{
+ display:none;
+}
+
+#cajaD{
+ display:none;
+}

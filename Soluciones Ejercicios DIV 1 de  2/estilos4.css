@@ -1,0 +1,47 @@
+/* Con fixed, si reducimos el tamaño de la
+   ventana del navegador, el contenido (caja padre) de la página
+   web no cabrá en la ventana y aparecerán las barras
+   de desplazamiento. Si utilizamos las
+   barras de desplazamiento, el contenido de la página
+   web se desplazará, pero las cajas no
+   se moverán de su posición.
+*/
+#cajaA{
+ background-color:red;
+ width:25%;
+ height:25%;
+
+ position:fixed;
+ top:0px;
+ left:0px;
+}
+
+#cajaB{
+ background-color:green;
+ height:25%;
+ width:25%;
+
+ position:fixed;
+ top:0px;
+ right:0px;
+}
+
+#cajaC{
+ background-color:yellow;
+ height:25%;
+ width:25%;
+ 
+ position:fixed;
+ bottom:0px;
+ left:0px;
+}
+
+#cajaD{
+ background-color:blue;
+ height:25%;
+ width:25%;
+
+ position:fixed;
+ bottom:0px;
+ right:0px;
+}

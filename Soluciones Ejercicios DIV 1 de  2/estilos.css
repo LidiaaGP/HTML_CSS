@@ -1,0 +1,26 @@
+#cajaA{
+ background-color:red;
+ height:25%;
+ /* No es necesario width:100%, puesto que por el comportamiento
+    por defecto de un elemento de bloque, le hace tomar
+	el ancho del contenedor padre.
+ */
+}
+
+#cajaB{
+ background-color:green;
+ height:25%;
+ width:75%;
+}
+
+#cajaC{
+ background-color:yellow;
+ height:25%;
+ width:50%;
+}
+
+#cajaD{
+ background-color:blue;
+ height:25%;
+ width:25%;
+}

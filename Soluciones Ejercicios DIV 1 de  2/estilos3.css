@@ -1,0 +1,45 @@
+/* Las cajas están posicionadas respecto
+   a la ventana del navegador--> position:absolute o fixed.
+   En estos casos la referencia del desplazamiento (top,left,bottom,right)
+   son los bordes del contenedor padre (ventana del navegador
+   en este caso).
+*/
+#cajaA{
+ background-color:red;
+ width:25%;
+ height:25%;
+
+ position:absolute;
+ top:0px;
+ left:0px;
+}
+
+#cajaB{
+ background-color:green;
+ height:25%;
+ width:25%;
+
+ position:absolute;
+ top:0px;
+ right:0px;
+}
+
+#cajaC{
+ background-color:yellow;
+ height:25%;
+ width:25%;
+ 
+ position:absolute;
+ bottom:0px;
+ left:0px;
+}
+
+#cajaD{
+ background-color:blue;
+ height:25%;
+ width:25%;
+
+ position:absolute;
+ bottom:0px;
+ right:0px;
+}

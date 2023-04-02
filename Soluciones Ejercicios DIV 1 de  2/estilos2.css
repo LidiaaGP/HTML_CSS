@@ -1,0 +1,27 @@
+#cajaA{
+ background-color:red;
+ height:25%;
+}
+
+#cajaB{
+ background-color:green;
+ height:25%;
+ width:75%;
+}
+
+#cajaC{
+ background-color:yellow;
+ height:25%;
+ width:50%;
+ 
+/* Movemos la caja desde su posición estática, gracias al posicionamiento relative */
+ position:relative;
+ bottom: 20%; /* También valdría: top:-20%; */
+ left:20%;
+}
+
+#cajaD{
+ background-color:blue;
+ height:25%;
+ width:25%;
+}

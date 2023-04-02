@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Temperaturas</title>
+<!-- Definición de estilos en la página: Incrustación -->
+<style type="text/css"> 
+										/* Selector de tipo (etiqueta HTML), se aplica a todas las etiquetas de la página */
+	body {
+		background-color: Black;
+		text-align: center;
+		color:white;
+	}
+	.centrar_bloque{margin:0px auto;}	/* Selector de clase, se aplica con el atributo "class" */
+	
+	h1,h2 {color:#FFA637} 				/* Agrupación de selectores */
+	
+										/* Selectores contextuales */
+	#tabla_principal {font-family: Verdana, Geneva, sans-serif; font-size: 16px; border-collapse: collapse;}
+	#tabla_principal th {background-color:blue; border: thin solid white;}
+	#tabla_principal td {border: thin solid Teal;}
+	#tabla_principal tr:hover {color:lime} /* :hover (al pasar el puntero del ratón por encima) --> seudo selector */
+</style>
+
+</head>
+<body>
+<h1>España</h1>
+<h2>Temperaturas mínimas históricas</h2>
+
+	<table class="centrar_bloque" id="tabla_principal"> <!-- Combinación de estilos "class", "id", e incluso podría ser "style" -->
+	     <!-- Estilo en línea, añadiendo atributo style en la etiqueta de apertura -->
+		<tr style="color:white"><th>Estación</th> <th>Mínima</th> <th>Fecha</th></tr>
+		<tr><td>Molina De Aragón</td> <td>-28</td> <td>17 Dic 1963</td></tr>
+		<tr><td>Albacete/Los Llanos B.Aerea</td> <td>-24</td> <td>03 Ene 1971</td></tr>
+		<tr><td>Albacete Instituto </td> <td>-22</td> <td>12 Dic 1875</td></tr>
+		<tr><td>Burgos 'Villafria' </td> <td>-22</td> <td>03 Ene 1971</td></tr>
+		<tr><td>Teruel Instituto</td> <td>-21,5</td> <td>28 Ene 1952</td></tr>
+	</table>
+	
+	<table class="centrar_bloque">
+	 <tr><td>Institulo Nacional de Estadística</td></tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#cajaA{
+ float:left;
+ width:25%;
+ height:25%;
+ background-color:red;
+}
+
+#cajaB{
+ float:left;
+ width:25%;
+ height:25%;
+ background-color: green;
+}
+
+#cajaC{
+ float:left; /* como cajaB tiene espacio a su derecha es necesario clear:left */
+ clear:left;
+ width:25%;
+ height:25%;
+ background-color: yellow;
+}
+
+#cajaD{
+ float:left; 
+ width:25%;
+ height:25%;
+ background-color: orange;
+}

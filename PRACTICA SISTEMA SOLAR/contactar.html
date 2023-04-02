@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactar</title>
+</head>
+
+<body background="imagenes/fondo.jpg" text="white" link="white" vlink="red">
+
+    <table align="center" width="863" >
+        <tr><td colspan="2" align="center"><img src="imagenes/planetas.jpg "></td></tr>
+            
+    <tr><td valign="top"> 
+            <table align="left" width="150">
+                <tr><td align="center"><img src="imagenes/mercurio1.jpg"></td><td><a href="Mercurio.html" target="blank_"><FONT face="Verdana" size="2">Mercurio</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/venus1.jpg"></td><td><a href="Venus.html" target="blank_"><FONT face="Verdana" size="2">Venus</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/latierra1.jpg"></td><td><a href="La Tierra.html" target="blank_"><FONT face="Verdana" size="2">La Tierra</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/marte1.jpg"></td><td><a href="Marte.html" target="blank_"><FONT face="Verdana" size="2">Marte</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/jupiter1.jpg"></td><td><a href="Jupiter.html" target="blank_"><FONT face="Verdana" size="2">Jupiter</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/saturno1.jpg"></td><td><a href="Saturno.html" target="blank_"><FONT face="Verdana" size="2">Saturno</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/urano1.jpg"></td><td><a href="Urano.html" target="blank_"><FONT face="Verdana" size="2">Urano</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/neptuno1.jpg"></td><td><a href="Neptuno.html" target="blank_"><FONT face="Verdana" size="2">Neptuno</FONT></a></td></tr>
+                <tr><td align="center"><img src="imagenes/pluton1.jpg"></td><td><a href="Plutón.html" target="blank_"><FONT face="Verdana" size="2">Plutón</FONT></a></td></tr>
+                <tr><td align="center" colspan="3"><a href="contactar.html" target="blank_"><FONT face="Verdana" size="2"><i>Deja tu opinión</i></FONT></a></td></tr>
+            </table>
+        </td>
+    <td>
+        <h2 align="center"><FONT face="Verdana">DEJA TU OPINIÓN</FONT></h2>
+<form action="contactar.php" method="post">
+
+    <table align="center">  
+        <tr>
+        <td><FONT face="Verdana" size="2">Nombre:</FONT></td><td><input type="text" name="nombre" size="20"></td>
+        </tr>
+
+        <tr>
+        <td><FONT face="Verdana" size="2">Apellidos:</FONT></td><td><input type="text" name="apellidos" size="30"></td>
+        </tr>
+            
+        <tr> 
+        <td><FONT face="Verdana" size="2">Provincia: </FONT></td>
+        <td>
+            <select name="provincia" size="1">
+            <option><FONT face="Verdana" size="2">A Coruña</FONT></option>
+            <option><FONT face="Verdana" size="2">Lugo</FONT></option>
+            <option><FONT face="Verdana" size="2">Pontevedra</FONT></option>
+            <option><FONT face="Verdana" size="2">Ourense</FONT></option>
+            </select>        
+        </td>
+        </tr>
+
+        <tr>
+        <td><FONT face="Verdana" size="2">Correo electrónico:</FONT></td><td><input type="text" value="@" name="correo" size="35" maxlength="50"></td>
+        </tr>
+
+        <tr height="10"><td colspan="2"></td></tr>
+     
+
+        <tr>
+        <td><FONT face="Verdana" size="2">Edad:</FONT></td><td><FONT face="Verdana" size="2">¿Cómo nos conociste?</FONT></td>
+        </tr>
+
+        <tr>
+        <td><input type="radio" name="edad" value="0-20"><FONT face="Verdana" size="2">0-20</FONT></td><td><input type="checkbox" name="conocido[]" value="amigo"><FONT face="Verdana" size="2">A través de un amigo.</FONT></td>
+        </tr>
+
+        <tr>
+        <td><input type="radio" name="edad" value="20-40" checked><FONT face="Verdana" size="2">20-40</FONT></td><td><input type="checkbox" name="conocido[]" value="buscador"><FONT face="Verdana" size="2">A través de un buscador.</FONT></td>
+        </tr>
+
+        <tr>
+        <td><input type="radio" name="edad" value="40-60"><FONT face="Verdana" size="2">40-60</FONT></td><td><input type="checkbox" name="conocido[]" value="red"><FONT face="Verdana" size="2">Navegando por la red.</FONT></td>
+        </tr>
+
+        <tr> 
+        <td><input type="radio" name="edad" value="60-100"><FONT face="Verdana" size="2">60-100</FONT></td><td><input type="checkbox" name="conocido[]" value="otros"><FONT face="Verdana" size="2">Otros.</FONT></td>
+        </tr>
+
+        <tr height="10"><td colspan="2"></td></tr>
+
+        <tr>
+        <td colspan="2"><FONT face="Verdana" size="2">Opinión sobre nuestra página web</FONT></td>
+        </tr>
+        
+        <tr>
+        <td colspan="2"><textarea name="opinión" cols="42" rows="5">Introduzca aquí su opinión...</textarea>
+        </td>
+        </tr>
+        </table>
+         
+            <table align="center">
+                <tr>
+                <td><INPUT TYPE="submit" VALUE="enviar formulario"></td>
+                <td><INPUT TYPE="reset" VALUE="borrar formulario"></td> 
+                </tr>
+            </table>
+
+</form>
+
+    </td>
+    </tr>
+    </table>
+
+</body>
+</html>

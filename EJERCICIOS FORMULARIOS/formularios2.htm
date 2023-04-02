@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>FORMULARIO DE REGISTRO</title>
+</head>
+<body>
+<h1 ALIGN="center"><font color="blue">FORMULARIO DE REGISTRO</font></H1>
+<form method="POST" action="registro.php">
+	<table border="1" bgcolor="grey" align="center" width="480">
+		<tr>
+			<td><font color="blue">Nombre completo</font></td>
+			<td >
+				<input name="nombre" size="25" >
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue"> Direccion</font></td>
+			<td ><textarea name="direccion" rows="4" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td ><font color="blue">Correo electrónico</font></td>
+			<td > 
+				<input name="correo" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue">Contraseña</font></td>
+			<td >
+				<input type="password" name="contrasenha" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue">Repetir Contraseña</font></td>
+			<td > 
+				<input type="password" name="contrasenha_repe" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue">Fecha de nacimiento</td>
+			<td >
+				 <select name="mes">
+				 <option value="1">Enero</option>
+				 <option value="2">Febrero</option>
+				 <option value="3">Marzo</option>
+				 <option value="4">Abril</option>
+				 <option value="5">Mayo</option>
+				 <option value="6">Junio</option>
+				 <option value="7">Julio</option>
+				 <option value="8">Agosto</option>
+				 <option value="9">Septiembre</option>
+				 <option value="10">Octubre</option>
+				 <option value="11">Noviembre</option>
+				 <option value="12">Diciembre</option>
+				</select>
+				<select name="dia">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+				</select>
+				<input name="anho" size="4" maxlength="4">
+			</td>
+		</tr>
+		<tr>
+			<td><font color="blue">Sexo</font></td>
+			<td >
+				<input type="radio" NAME="sexo" VALUE="h"><font color="blue">Hombre</font><INPUT TYPE="radio" NAME="sexo" VALUE="m"><font color="blue">Mujer</font>
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue"> Preferencias</font></td>
+			<td>
+			<table>
+				<tr><td><input type="checkbox" NAME="preferencias[]" VALUE="ficcion"><font color="blue">Ficcion</font></td>
+				    <td><input type="checkbox" NAME="preferencias[]" VALUE="Terror"><font color="blue">Terror</font></td>
+				</tr>
+				<tr><td><input type="checkbox" NAME="preferencias[]" VALUE="accion"><font color="blue">Acción</font> </td>
+				    <td><input type="checkbox" NAME="preferencias[]" VALUE="comedia"><font color="blue">Comedia</font></td>
+				</tr>
+				<tr><td><input type="checkbox" NAME="preferencias[]" VALUE="suspense"><font color="blue">Suspense</font></td><td></td></tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td ><font color="blue"> Selecciona tus aficiones (Puedes seleccionar varias con la tecla de control)</font></td>
+			<td >
+				<select name="aficiones[]" size="4" multiple>
+				<option>Musica Rock</option>
+				<option>Musica Pop</option>
+				<option>Musica alternativa</option>
+				<option>Musica folk</option>
+				<option>Deportes de Aventura</option>
+				<option>Lectura</option><option>Cine</option>
+				<option>Viajes</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><INPUT TYPE="submit" VALUE="enviar datos"></td><td></td>
+		</tr>
+	</table>
+ </form>
+</body>
+</html>

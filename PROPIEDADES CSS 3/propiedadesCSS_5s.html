@@ -1,0 +1,62 @@
+<html>
+<head><title>Bordes, margenes y rellenos</title>
+<style type="text/css">
+body{
+ text-align:center; 
+}
+#tabla1{
+ margin:0px auto;
+ margin-bottom:30px;
+ border:5px solid green;
+}
+
+#tabla1 th{
+ background-color: yellow;
+ border:2px dotted black;
+}
+
+#tabla1 td{
+ border: 2px solid orange;
+ padding: 10px;
+}
+
+.alineacion_derecha{
+ text-align: right;
+}
+
+#tabla2{
+ margin:0px auto;
+ border-collapse: collapse;
+ border-bottom:5px solid green;
+ background-image: url("fondo_tabla.gif");
+ width: 500px;
+}
+
+#tabla2 th{
+ border:4px dotted red;
+ border-bottom-style:solid;
+}
+
+#tabla2 td{
+ border: 2px solid orange;
+}
+</style>
+</head>
+<body>
+
+<table id="tabla1">
+ <tr><th>Pais</th><th>Habitantes 2012</th></tr>
+  <tr><td>China</td><td class="alineacion_derecha">1.353.601.000</td></tr>
+   <tr><td>India</td><td class="alineacion_derecha">1.258.351.000</td></tr>
+    <tr><td>Estados Unidos</td><td class="alineacion_derecha">315.791.000</td></tr>
+</table>
+
+<table id="tabla2">
+ <tr><th>Pais</th><th>Habitantes 2012</th></tr>
+  <tr><td>China</td><td class="alineacion_derecha">1.353.601.000</td></tr>
+   <tr><td>India</td><td class="alineacion_derecha">1.258.351.000</td></tr>
+    <tr><td>Estados Unidos</td><td class="alineacion_derecha">315.791.000</td></tr>
+</table>
+
+</body>
+</html>

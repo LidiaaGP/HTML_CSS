@@ -1,0 +1,39 @@
+#cajaA{
+ background-color:red;
+ width:25%;
+ height:100%;
+
+ position:absolute;
+ top:0px;
+ left:0px;
+}
+
+#cajaB{
+ background-color:green;
+ height:100%;
+ width:25%;
+
+ position:absolute;
+ top:0%;
+ left:25%;
+}
+
+#cajaC{
+ background-color:yellow;
+ height:100%;
+ width:25%;
+ 
+ position:absolute;
+ top:0%;
+ left:50%;
+}
+
+#cajaD{
+ background-color:blue;
+ height:100%;
+ width:25%;
+
+ position:absolute;
+ top:0%;
+ left:75%;
+}

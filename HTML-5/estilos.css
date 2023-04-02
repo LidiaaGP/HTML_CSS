@@ -1,0 +1,160 @@
+	@import url("reset.css"); /* Se incorpora las reglas del fichero reset.css */
+	
+	/**** Estilos propios ****/
+	 body,html { /* Asignamos alto de referencia a los elementos hijos*/
+ 		height:100%; 
+	 } 
+
+	/* Ajuste de sangrías para listas */ 
+	 ul,ol { 
+ 	 	list-style-position: inside; 
+	 } 
+	 
+	 ul,ol,li { 
+ 	  	margin-left:0.6em; 
+	 } 
+	 
+	 ul > ul { 
+ 	 	margin-left:1.25em; 
+	 } 
+	 ol > ol { 
+ 	 	margin-left:1.25em; 
+	 } 
+ 
+	h1 {
+    	font-size: 2em;
+    	margin: 0.67em 0;
+	}
+ 
+	h2 {
+    	font-size: 1.5em;
+    	margin: 0.83em 0;
+	}
+ 
+	h3 {
+    	font-size: 1.17em;
+    	margin: 1em 0;
+	}
+ 
+	h4 {
+    	font-size: 1em;
+    	margin: 1.33em 0;
+	}
+ 
+	h5 {
+    	font-size: 0.83em;
+    	margin: 1.67em 0;
+	}
+ 
+	h6 {
+    	font-size: 0.75em;
+    	margin: 2.33em 0;
+	}
+ 
+
+	
+/* Estilos del ejercicio */
+body{
+ background-color:orange;
+}
+
+#principal{
+ background-color: white;
+}
+
+#encabezado{
+ color:black;
+ background-color:#CBE213;
+ font-size:1.250em;
+ height:4.5em;
+}
+
+#encabezado h1 {
+ margin:0px;
+}
+#principal a {
+ text-decoration:none;
+}
+#txt_logo{
+ margin-left:0.938em;
+}
+
+#menu{
+ color:white;
+ background-color:#BF3288;
+ padding:10px;
+}
+
+#menu a{
+ color: white;
+ font-weight:bold;
+}
+
+#contenido{
+ background-color:white;
+ padding:0.625em;
+}
+
+#tabla{
+ margin:0px auto;
+ border-collapse:collapse;
+}
+
+#tabla caption{
+ font-size:1.250em;
+ font-weight:bold;
+}
+#tabla td,#tabla th{
+ padding: 0.3em;
+ border: 0.13em solid black;
+}
+
+#tabla thead{
+ background-color:black;
+ color:white;
+ text-align:center;
+ font-size:1.2em;
+}
+
+#tabla tbody{
+ font-size:1.2em;
+ background-color:#EBEBEB;
+}
+
+#lista_top_ventas{
+ list-style-type:square;
+}
+
+#top_ventas{
+ margin:0.625em auto 0px;
+ background-color:#D80236;
+ width:50%;
+ border:5px dotted black;
+}
+
+#top_ventas header,footer{
+ text-align:center;
+}
+
+#top_ventas footer{
+  margin-top: 0.313em;
+}
+
+#top_ventas a{
+ color:lime;
+}
+
+#pie{
+ background-color:#CBE213;
+ color:black;
+}
+#pie p {
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	text-align:center;
+}
+
+#rellenopie{
+	height:5em;
+	background-color:#FFA500;
+}
